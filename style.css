@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:green;
+    display:flex;
+    justify-content:center;
+}
+
+main{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin:20px 10px;
+    width:100%;
+    gap:10px;   
+}
+
+.dealer-board, .player-board{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-weight:800;
+    gap:10px;
+    background-color:rgb(93, 123, 93);
+    border:solid 2px black;
+    border-radius:5px;
+    height:175px;
+    padding:18px;   
+}
+
+.card{
+    background-color:white;
+    width:75px;
+    height:110px;
+}
+
+.dealer-cards, .player-cards{
+    display:flex;
+    gap:15px;
+}
+
+.empty-card{
+    background-color:rgb(93, 123, 93);
+    width:70px;
+    height:110px;
+    border:2px solid rgb(0, 45, 0);
+}
+
+.player-ui{
+    display:flex;
+    border:2px solid black;
+    padding:10px 20px;
+    width:100%;
+    background-color:rgb(93, 123, 93);
+    border-radius:5px;
+    flex-direction:column;
+    gap:20px;
+}
+
+.player-ui button{
+    border-radius:15px;
+    border:solid 2px black;
+}
+.start{
+    padding:10px;
+    background-color:green;
+    color:black;
+    font-weight:800;   
+}
+
+.hit-or-stay{
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+}
+
+.hit-or-stay button{
+    padding:10px;
+    font-weight:800;
+    width:120px;
+}
+
+.hit{
+    background-color:greenyellow;
+}
+
+.stay{
+    background-color:red;
+}
+
+.bet-interface{
+    font-size:20px;
+    border-radius:5px;
+    padding:5px;
+    display:flex;
+    justify-content:space-around;
+    font-weight:800;
+}
+
+.bet-interface input{
+    text-align:center;
+    background-color:rgba(255, 255, 255, 0.544);
+    font-weight:800;
+    font-size:17px;
+    width:50px;
+    height:30px;
+    border-radius:5px;
+    border:solid 2px black;
+}
+
+.bet-amount{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+
+.account-balance{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.account-balance .userBalance{
+    color:rgba(255, 255, 255, 0.544);
+}
