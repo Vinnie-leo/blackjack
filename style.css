@@ -54,12 +54,13 @@ main{
     display:flex;
     border:2px solid black;
     padding:10px 20px;
-    width:100%;
+    width:364px;
+    
     background-color:rgb(93, 123, 93);
     border-radius:5px;
     flex-direction:column;
     gap:20px;
-    max-width:365px;
+    
 }
 
 .player-ui button{
