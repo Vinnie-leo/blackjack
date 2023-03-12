@@ -59,7 +59,7 @@ main{
     border-radius:5px;
     flex-direction:column;
     gap:20px;
-    max-width:375px;
+    max-width:365px;
 }
 
 .player-ui button{
