@@ -43,11 +43,15 @@ main{
     gap:15px;
 }
 
-.empty-card{
+.empty-card-dealer, .empty-card-player{
     background-color:rgb(93, 123, 93);
     width:70px;
     height:110px;
     border:2px solid rgb(0, 45, 0);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:50px;
 }
 
 .player-ui{
@@ -74,6 +78,15 @@ main{
     font-weight:800;   
 }
 
+.start:hover{
+    background-color:rgb(38, 144, 38);
+    color:white;
+}
+
+.start:active{
+    background-color:green;
+}
+
 .hit-or-stay{
     display:flex;
     justify-content:space-between;
@@ -86,13 +99,36 @@ main{
     width:120px;
 }
 
-.hit{
+.hit, .hit:active{
     background-color:greenyellow;
 }
+
+.hit:hover{
+    background-color:rgb(206, 248, 144);
+    
+}
+
+.hit:active{
+    background-color:greenyellow;
+}
+
+
+
+
 
 .stay{
     background-color:red;
 }
+
+.stay:hover{
+    background-color:rgb(255, 112, 112);
+}
+
+.stay:active{
+    background-color:red;
+}
+
+
 
 .bet-interface{
     font-size:20px;
